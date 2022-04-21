@@ -7,3 +7,25 @@ exports.createPages = async ({ actions }) => {
     defer: true,
   })
 }
+
+exports.createPages = async function ({ actions, graphql }) {
+  const { data } = await graphql(`
+    query path {
+      allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/projects/" } }) {
+        nodes {
+          frontmatter {
+            moreUrl
+          }
+        }
+      }
+    }
+  `)
+  data.allMarkdownRemark.nodes.forEach(node => {
+    const path = node.frontmatter.moreUrl
+    actions.createPage({
+      path: path,
+      component: require.resolve(`./src/templates/project.js`),
+      context: { sitePath: path },
+    })
+  })
+}
