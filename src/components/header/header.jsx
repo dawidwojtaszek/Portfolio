@@ -11,30 +11,10 @@ export const Header = () => (
       <Wrap.Navigation>
         <Wrap.LinkList>
           <Wrap.LinkElement>
-            <Wrap.Link
-              href="/#portfolio"
-              whileHover={{
-                transition: {
-                  duration: 0.2,
-                },
-                color: "#0CCE6B",
-              }}
-            >
-              Portfolio
-            </Wrap.Link>
+            <Wrap.Link to="/#portfolio">Portfolio</Wrap.Link>
           </Wrap.LinkElement>
           <Wrap.LinkElement>
-            <Wrap.Link
-              href="/#kontakt"
-              whileHover={{
-                transition: {
-                  duration: 0.2,
-                },
-                color: "#0CCE6B",
-              }}
-            >
-              Kontakt
-            </Wrap.Link>
+            <Wrap.Link to="/#contact">Kontakt</Wrap.Link>
           </Wrap.LinkElement>
         </Wrap.LinkList>
       </Wrap.Navigation>

@@ -1,6 +1,7 @@
 import styled from "styled-components"
 import { GatsbyImage } from "gatsby-plugin-image"
 import { Link } from "gatsby"
+import { motion } from "framer-motion"
 
 const Card = styled.div`
   max-width: ${({ theme }) => theme.size.container};
@@ -91,7 +92,7 @@ const BtnLink = styled(Link)`
   width: 33.3%;
   height: 100%;
 `
-const Btn = styled.button`
+const Btn = styled(motion.button)`
   border: none;
   width: 100%;
   height: 50px;
@@ -104,6 +105,9 @@ const Btn = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.green};
+  }
   @media (max-width: 1200px) {
     font-size: 16px;
   }

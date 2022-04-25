@@ -1,5 +1,5 @@
 import styled from "styled-components"
-import { motion } from "framer-motion"
+import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 const Wrap = styled.header`
   height: 80px;
@@ -48,9 +48,13 @@ const LinkElement = styled.li`
     font-size: 15px;
   }
 `
-const Link = styled(motion.a)`
+const Link = styled(AnchorLink)`
   color: ${({ theme }) => theme.colors.dark};
   text-decoration: none;
+  cursor: pointer;
+  &:hover {
+    color: ${({ theme }) => theme.colors.green};
+  }
 `
 
 Wrap.Container = Container

@@ -8,8 +8,8 @@ import PersonalEmailSvg from "../contact-svg/contact-svg"
 import ContactForm from "../form/form"
 
 const Contact = () => (
-  <ContactWrap id="kontakt">
-    <ContactWrap.Container>
+  <ContactWrap>
+    <ContactWrap.Container id="contact">
       <ContactWrap.Title>Kontakt</ContactWrap.Title>
       <ContactWrap.InfoBox>
         <ContactWrap.Info>

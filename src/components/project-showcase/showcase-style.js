@@ -60,6 +60,9 @@ const Button = styled.button`
   justify-content: center;
   gap: 10px;
   align-items: center;
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.green};
+  }
   @media (max-width: 1200px) {
     font-size: 16px;
   }

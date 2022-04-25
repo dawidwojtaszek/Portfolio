@@ -31,7 +31,7 @@ const PortfolioCard = ({
 
         <Card.ButtonBox>
           <Card.BtnLink to={`${moreUrl}`}>
-            <Card.Btn>
+            <Card.Btn whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}>
               <Card.BtnIcon>
                 <FontAwesomeIcon icon={faArrowsAlt} />
               </Card.BtnIcon>
@@ -39,7 +39,7 @@ const PortfolioCard = ({
             </Card.Btn>
           </Card.BtnLink>
           <Card.BtnLink to={`${liveUrl}`}>
-            <Card.Btn>
+            <Card.Btn whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}>
               <Card.BtnIcon>
                 <FontAwesomeIcon icon={faEye} />
               </Card.BtnIcon>
@@ -47,7 +47,7 @@ const PortfolioCard = ({
             </Card.Btn>
           </Card.BtnLink>
           <Card.BtnLink to={`${githubUrl}`}>
-            <Card.Btn>
+            <Card.Btn whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}>
               <Card.BtnIcon>
                 <FontAwesomeIcon icon={faGithub} />
               </Card.BtnIcon>

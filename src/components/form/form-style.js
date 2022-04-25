@@ -55,6 +55,9 @@ const Btn = styled.button`
   text-transform: uppercase;
   height: 50px;
   width: 170px;
+  &:hover {
+    background-color: ${({ theme }) => theme.colors.green};
+  }
 `
 const BtnIcon = styled.div`
   margin-right: 5px;
