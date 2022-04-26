@@ -1,15 +1,14 @@
 ---
 id: 4
 title: Strona Produktu - Chalange z FrontEndMentor
-liveUrl: "#"
-githubUrl: "#"
+liveUrl: "https://ecstatic-franklin-af1c80.netlify.app/"
+githubUrl: "https://github.com/dawidwojtaszek/E-commerce-product-page-challenge"
 moreUrl: "/product-page"
-shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing eli"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing eli"
+shortDescription: "Jest to kolejne rozwiązanie wyzwania z FrontEndMentor tym razem z użyciem Gatsby, jest to typowa strona produktu w aplikacji e-comerce."
+description: "Podobnie jak w przypadku EasyBank projekt ten jest moim rozwiązaniem zadania z Frontend Mentor. W tym przypadku postanowiłem użyć GatsbyJS."
 mockupPreview: "../../images/mockupProductPage.jpg"
 mockupShowcase: "../../images/productPageShowcase.jpg"
 tag:
-  - to jest 1
-  - to jest 2
-  - to jest 3
+  - GatsbyJs
+  - Styled-components
 ---

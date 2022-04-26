@@ -4,12 +4,14 @@ title: Aplikcja Ecomerce z użyciem React.js
 liveUrl: "https://lorem-ecomerce.netlify.app/"
 githubUrl: "https://github.com/dawidwojtaszek/loremecomerce"
 moreUrl: "/lorem-ecomerce"
-shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing eli"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing eli"
+shortDescription: "W ramach nauki Reacta stworzyłem aplikację ecomerce.  Projekt okazał się świetnym sposobem na poszerzenie swoich umiejętności."
+description: "Po przerobieniu kilku kursów React uznałem, że potrzebuję stworzyć własny projekt z użyciem tej biblioteki i postanowiłem przygotować fikcyjną aplikację e-comerce z podstawowymi funkcjami. Projekt okazał się świetnym sposobem na naukę  nowych technologi oraz utrwalenie już przyswojonej wiedzy. Do przygotowania projektu użyłem Adobe XD, komponenty stylowałem z wykorzystaniem styled-components, a animację wykonałem z Framer Motion. Podczas tworzenia tej aplikacji miałem okazję przygotować wiele komponentów typowych dla stron e-comerce takich jak: koszyk zakupowy, listę życzeń, modal z szybkim podglądem produktu, powiadomienia czy wyświetlanie ilości gwiazdek w zależności od oceny produktu. Największą zaletą pracy nad tą aplikacją jest duża ilość przemyśleń i błędów, które mogę wykorzystać w następnych projektach."
 mockupPreview: "../../images/mockupLorem.jpg"
 mockupShowcase: "../../images/loremEcomerceShowcaseMockup.jpg"
 tag:
-  - to jest 1
-  - to jest 2
-  - to jest 3
+  - React
+  - Redux
+  - Styled-components
+  - Framer Motion
+  - Adobe Xd
 ---

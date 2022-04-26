@@ -1,15 +1,16 @@
 ---
 id: 2
 title: Strona internetowa dla lokalnej drużyny
-liveUrl: "#"
-githubUrl: "#"
+liveUrl: "https://sosnowianka.pl/"
+githubUrl: "https://github.com/dawidwojtaszek/sosnowianka"
 moreUrl: "/sosnowianka"
-shortDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing eli"
-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing eli Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing eli"
+shortDescription: "Strona internetowa dla lokalnej drużyny piłkarskiej okazała się idealnym projektem do nauki Gatsby.js oraz styled-components."
+description: "Podobnie jak w przypadku aplikacji e-comerce ten projekt był idealnym sposobem na naukę nowych technologi, jednak w tym przypadku nie tworzyłem fikcyjnej aplikacji, ale stronę dla lokalnej drużyny piłkarskiej. Zakładałem stworzyć prostą stronę z bierzącymi informacjami na temat klubu oraz z możliwością dodawania i edycji treści przez pracownika klubu, który nie potrafi programować, więc konieczny był CMS. Wybór technologi padł na Gatsby, styled-components oraz Netlify CMS, żadnej z tych technologi wcześniej nie używałem, więc podczas pracy nauczyłem się bardzo dużo nowych rzeczy, a Netlify CMS okazał się idealnym wyborem na potrzeby tego projektu. Klub sam może dodawać newsy, uzupełniać listy zawodników oraz terminarze spotkań."
 mockupPreview: "../../images/mockupSosnowianka.jpg"
 mockupShowcase: "../../images/sosnowiankaShowcase.jpg"
 tag:
-  - to jest 1
-  - to jest 2
-  - to jest 3
+  - GatsbyJS
+  - Styled-components
+  - Netlify CMS
+  - Adobe XD
 ---
