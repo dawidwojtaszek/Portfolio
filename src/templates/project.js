@@ -4,6 +4,7 @@ import { ProjectShowcase } from "../components/project-showcase/showcase"
 import { ProjectDescription } from "../components/project-description/description"
 import { graphql } from "gatsby"
 import { getImage } from "gatsby-plugin-image"
+import Seo from "../components/seo"
 
 const LoremEcomerce = ({ data }) => {
   const project = data.markdownRemark.frontmatter
@@ -12,6 +13,7 @@ const LoremEcomerce = ({ data }) => {
   console.log(project)
   return (
     <Layout>
+      <Seo title={project.title} />
       <ProjectShowcase
         title={project.title}
         img={screenShot}
