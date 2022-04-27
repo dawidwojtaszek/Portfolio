@@ -4,7 +4,12 @@ import { faPaperPlane } from "@fortawesome/free-regular-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const ContactForm = () => (
-  <FormWrap method="POST" data-netlify="true">
+  <FormWrap
+    method="POST"
+    data-netlify="true"
+    name="Contact Form"
+    action="/sukces"
+  >
     <FormWrap.InputGroup>
       <FormWrap.Label>Email:</FormWrap.Label>
       <FormWrap.Input type="email" name="email"></FormWrap.Input>
