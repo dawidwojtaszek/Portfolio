@@ -2,9 +2,6 @@ import styled from "styled-components"
 
 const FormWrap = styled.form`
   width: 100%;
-`
-const InputGroup = styled.div`
-  margin-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -41,6 +38,7 @@ const Label = styled.label`
   color: ${({ theme }) => theme.colors.dark};
   font-family: ${({ theme }) => theme.font.heading};
   font-size: 18px;
+  margin-top: 30px;
 `
 const Btn = styled.button`
   background-color: ${({ theme }) => theme.colors.dark};
@@ -63,7 +61,6 @@ const BtnIcon = styled.div`
   margin-right: 5px;
 `
 
-FormWrap.InputGroup = InputGroup
 FormWrap.Input = Input
 FormWrap.Message = Message
 FormWrap.Label = Label
