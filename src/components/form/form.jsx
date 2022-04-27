@@ -5,14 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 
 const ContactForm = () => (
   <FormWrap name="contact" method="POST" data-netlify="true" action="/sukces">
-    <FormWrap.Label>
-      Email:
-      <FormWrap.Input type="email" name="email" />
-    </FormWrap.Label>
-    <FormWrap.Label>
-      Wiadomość:
-      <FormWrap.Message name="message" />
-    </FormWrap.Label>
+    <FormWrap.Label>Email:</FormWrap.Label>
+    <FormWrap.Input type="email" name="email" />
+
+    <FormWrap.Label>Wiadomość:</FormWrap.Label>
+    <FormWrap.Message name="message" />
+
     <FormWrap.Btn type="submit">
       <FormWrap.BtnIcon>
         <FontAwesomeIcon icon={faPaperPlane} />
