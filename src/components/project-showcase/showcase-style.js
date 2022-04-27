@@ -74,6 +74,10 @@ const ScreanShot = styled(GatsbyImage)`
     width: 500px;
     height: auto;
   }
+  @media (max-width: 900px) {
+    width: 100%;
+    height: auto;
+  }
 `
 
 Showcase.Container = Container
