@@ -1,7 +1,7 @@
 ---
 id: 2
 title: Strona internetowa dla lokalnej drużyny
-liveUrl: "https://sosnowianka.pl/"
+liveUrl: "https://sosnowianka.netlify.app/"
 githubUrl: "https://github.com/dawidwojtaszek/sosnowianka"
 moreUrl: "/sosnowianka"
 shortDescription: "Strona internetowa dla lokalnej drużyny piłkarskiej okazała się idealnym projektem do nauki Gatsby.js oraz styled-components."
